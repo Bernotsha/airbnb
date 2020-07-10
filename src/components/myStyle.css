@@ -1,0 +1,173 @@
+.first{
+    text-align: center;
+    margin-top: 20px;
+}
+#airbnb{
+    vertical-align: middle;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+.bodyleft{
+    margin: 0px 30px;
+}
+.middle{
+    vertical-align: middle;
+}
+.gridcontent{
+    padding: 0px;
+}
+.logintext{
+    font-size: 12px;
+}
+.loginbutton{
+    background-color: #d4126a94;
+    color: white;
+    border: none;
+    outline: none;
+}
+.loginbutton:hover{
+    background-color:#d4126a94 ;
+}
+#search{
+    background-color:#86003c;
+    color: white;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+.dark{
+    font-size: 12px;
+}
+.light{
+    font-size: 12px;
+    font-weight: normal;
+}
+.language{
+    margin-top: 50px;
+}
+.downarrow{
+    margin-left: 10px;
+}
+.searchicon{
+    margin-right: 10px;
+}
+.redtext{
+    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.red1{
+    font-size: 45px;
+    color: #ad1d45;
+}
+.picmargin{
+    margin: 10px;
+}
+.picbody{
+    font-size: 14px;
+    color:#323232;
+}
+.pichead{
+    font-size: 16px;
+    line-height: 0.6;
+    font-weight: bold;
+    color: #323232;
+}
+.imagehead{
+    color: white;
+    font-weight: bold;
+}
+.line3{
+    margin-top: 50px;
+}
+#hero{
+    font-weight: bold;
+    font-size: 30px;
+}
+#hero1{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.involved{
+    padding: 10px 20px;
+    background-color: white;
+    border: 3px solid rgb(102, 96, 96);
+    outline: none;
+    border-radius: 10px;
+
+}
+.explore{
+    padding: 10px 20px;
+    color: white;
+    background: black;
+}
+#tour{
+    margin-top: 50px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.pblock{
+    padding: 20px 20px 20px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.about{
+    margin-top: 40px;
+}
+.navitem{
+    text-decoration: none;
+}
+.navitem:hover{
+    border-bottom: 3px solid black;
+}
+
+.box{
+    text-decoration: none;
+}
+.smalltext{
+    font-size: 12px;
+}
+.placeunderline{
+    text-decoration: none;
+}
+.placeunderline:hover{
+    text-decoration: underline;
+}
+.add{
+    margin-left: 900px;
+    margin-top: 100px;
+    width: 400px;
+}
+.addicon{
+    font-size: 20px;
+    padding: 10px;
+    padding: 10px 20px;
+    color: gray;
+}
+.addtext{
+    margin-top: 10px;
+}
+
+.active1{
+    border-bottom: 3px solid black;
+}
+#online{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.5;
+}
+#online1{
+    font-size: 18px;
+}
+.test-class{
+position:fixed;
+background: white;
+height: auto;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+}
