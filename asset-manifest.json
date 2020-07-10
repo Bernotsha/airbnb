@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/airbnbapp/static/css/main.2814cb1b.chunk.css",
+    "main.js": "/airbnbapp/static/js/main.80c14f7d.chunk.js",
+    "main.js.map": "/airbnbapp/static/js/main.80c14f7d.chunk.js.map",
+    "runtime-main.js": "/airbnbapp/static/js/runtime-main.abea4b61.js",
+    "runtime-main.js.map": "/airbnbapp/static/js/runtime-main.abea4b61.js.map",
+    "static/js/2.80c8bf22.chunk.js": "/airbnbapp/static/js/2.80c8bf22.chunk.js",
+    "static/js/2.80c8bf22.chunk.js.map": "/airbnbapp/static/js/2.80c8bf22.chunk.js.map",
+    "index.html": "/airbnbapp/index.html",
+    "precache-manifest.faec5604bb2e792ea2da090226170c85.js": "/airbnbapp/precache-manifest.faec5604bb2e792ea2da090226170c85.js",
+    "service-worker.js": "/airbnbapp/service-worker.js",
+    "static/css/main.2814cb1b.chunk.css.map": "/airbnbapp/static/css/main.2814cb1b.chunk.css.map",
+    "static/js/2.80c8bf22.chunk.js.LICENSE.txt": "/airbnbapp/static/js/2.80c8bf22.chunk.js.LICENSE.txt",
+    "static/media/bmb2.png": "/airbnbapp/static/media/bmb2.b5752b17.png",
+    "static/media/bnb3.jpg": "/airbnbapp/static/media/bnb3.49bfa2ec.jpg",
+    "static/media/bnbicon.png": "/airbnbapp/static/media/bnbicon.84a40241.png",
+    "static/media/bng1.jpeg": "/airbnbapp/static/media/bng1.1521a5cc.jpeg",
+    "static/media/chef2.png": "/airbnbapp/static/media/chef2.880a558d.png",
+    "static/media/chef4.jpg": "/airbnbapp/static/media/chef4.d037a623.jpg",
+    "static/media/facebookicon.png": "/airbnbapp/static/media/facebookicon.b7252afe.png",
+    "static/media/food.jpg": "/airbnbapp/static/media/food.20cfcc11.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abea4b61.js",
+    "static/js/2.80c8bf22.chunk.js",
+    "static/css/main.2814cb1b.chunk.css",
+    "static/js/main.80c14f7d.chunk.js"
+  ]
+}
