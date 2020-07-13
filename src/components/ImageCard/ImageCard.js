@@ -1,8 +1,8 @@
 import React from 'react'
-import './myStyle.css'
-import bmb2 from './bmb2.png'
-import bnb3 from './bnb3.jpg'
-import bng1 from './bng1.jpeg'
+import './ImageCard.css'
+import bmb2 from '../assets/bmb2.png'
+import bnb3 from '../assets/bnb3.jpg'
+import bng1 from '../assets/bng1.jpeg'
 
 function ImageCard()
 {

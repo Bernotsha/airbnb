@@ -1,0 +1,15 @@
+.bodyleft{
+    margin: 0px 30px;
+}
+#tour{
+    margin-top: 50px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.placeunderline{
+    text-decoration: none;
+}
+.placeunderline:hover{
+    text-decoration: underline;
+}

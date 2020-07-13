@@ -1,0 +1,9 @@
+.bodyleft{
+    margin: 0px 30px;
+}
+.placeunderline{
+    text-decoration: none;
+}
+.placeunderline:hover{
+    text-decoration: underline;
+}

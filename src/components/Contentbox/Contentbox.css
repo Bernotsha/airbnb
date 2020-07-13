@@ -1,0 +1,24 @@
+.bodyleft{
+    margin: 0px 30px;
+}
+.gridcontent{
+    padding: 0px;
+}
+.dark{
+    font-size: 12px;
+}
+.light{
+    font-size: 12px;
+    font-weight: normal;
+}
+.box{
+    text-decoration: none;
+}
+#search{
+    background-color:#86003c;
+    color: white;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}

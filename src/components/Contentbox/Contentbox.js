@@ -1,5 +1,5 @@
 import React from 'react'
-import './myStyle.css'
+import './Contentbox.css'
 
 function Contentbox()
 {
@@ -15,20 +15,20 @@ function Contentbox()
         </div>
 
         <div class="w3-col s2 w3-border w3-padding-16 boxtop w3-button w3-hover-border-grey w3-hover-white w3-border">
-          <a href="#" class="box">
+          <a href="/#" class="box">
             <span class="gridcontent dark">CHECK IN</span><br/>
             <span class="gridcontent light">Address dates</span> 
           </a>
        </div>
        <div class="w3-col s2 w3-border w3-padding-16 boxtop w3-button w3-hover-border-grey w3-hover-white w3-border">
-         <a href="#" class="box">
+         <a href="/#" class="box">
         <span class="gridcontent dark">CHECK OUT</span><br/>
         <span class="gridcontent light">Address dates</span> 
         </a>
        </div>
 
           <div class="w3-col s3 w3-border w3-padding-16 boxtop w3-button w3-hover-border-grey w3-hover-white w3-border w3-dropdown-click">
-            <a href="#" class="box" onclick="myFunction1()">
+            <a href="/#" class="box" onclick="myFunction1()">
             <div class="w3-right w3-margin-right"><button id="search"><i class="fa fa-search searchicon"></i>Search</button></div>
                 <span class="smalltext">GUEST</span><br/>
                 <span class="smalltext">Add Guest</span> 

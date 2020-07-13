@@ -1,9 +1,9 @@
 import React from 'react'
-import './myStyle.css'
-import chef2 from './chef2.png'
-import chef3 from './chef3.jpg'
-import chef4 from './chef4.jpg'
-import food from './food.jpg'
+import '../myStyle.css'
+import chef2 from '../assets/chef2.png'
+import chef3 from '../assets/chef3.jpg'
+import chef4 from '../assets/chef4.jpg'
+import food from '../assets/food.jpg'
 
 function Chefs()
 {

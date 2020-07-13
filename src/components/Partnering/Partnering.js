@@ -1,5 +1,5 @@
 import React from 'react'
-import './myStyle.css'
+import './Partnering.css'
 
 function Partnering()
 {
