@@ -1,61 +1,44 @@
-import Modal, {closeStyle} from 'simple-react-modal'
 import React from 'react'
-import bnbicon from './components/assets/bnbicon.png'
 import './components/myStyle.css'
-import ModalComponent from './components/common/ModalComponent'
+import Header from './components/Header/Header'
+import Covid from './components/Covid/Covid'
+import Option from './components/Option/Option'
+import Contentbox from './components/Contentbox/Contentbox'
+import Celebrities from './components/Celebrities/Celebrities'
+import Chefs from './components/Chefs/Chefs'
+import Destination from './components/Destination/Destination'
+import Partnering from './components/Partnering/Partnering'
+import ImageCard from './components/ImageCard/ImageCard'
+import Footerbox from './components/common/Footerbox'
 class App extends React.Component{
- 
-  constructor(){
-    super()
-    this.state = {}
-  }
- 
-  show(){
-    this.setState({show: true})
-  }
- 
-  close(){
-    this.setState({show: false})
-  }
- 
- 
   render(){
     return (
-      <div>
-        <div className="w3-container w3-margin w3-padding-16">
-        <div className="w3-bar">
-            <div className="w3-bar-item"><img src={bnbicon} width="30px" height="30px"/><span id="airbnb">airbnb</span></div>
-            <div className="w3-right w3-hover-light-grey w3-round-xlarge middle">
-              <a href="#" className=" w3-button w3-right middle w3-hover-light-grey w3-round-xlarge" onClick={this.show.bind(this)}>Sign up</a>
-            </div>            
-            <div className="w3-right w3-hover-light-grey w3-round-xlarge middle">
-              <a href="#" className=" w3-button w3-right middle w3-hover-light-grey w3-round-xlarge" onClick={this.show.bind(this)}>Login</a>
-            </div>
-            <a href="#" class="w3-bar-item w3-button w3-right middle w3-hover-light-grey w3-round-xlarge">Help</a>
-            <a href="#" class="w3-bar-item w3-button w3-right middle w3-hover-light-grey w3-round-xlarge">Host an experience</a>
-            <a href="#" class="w3-bar-item w3-button w3-right middle w3-hover-light-grey w3-round-xlarge">Host your home</a>
-            <div class="w3-dropdown-click w3-right w3-hover-light-grey w3-round-xlarge">
-            <a href="#" class="w3-bar-item w3-button w3-right middle w3-hover-light-grey w3-round-xlarge" onclick="myFunction()"><i class='fas fa-globe-americas'></i><i class='fas fa-angle-down downarrow'></i></a>
-            <div id="demo" class="w3-dropdown-content w3-bar-block w3-card language w3-round-xlarge">
-              <a href="#" class="w3-bar-item w3-button w3-hover-light-grey">English (IN)</a>
-              <a href="#" class="w3-bar-item w3-button w3-hover-light-grey">INR</a>
-            </div>
-            </div>
-            </div>
-            </div>
-      <Modal
-      className="test-class"
-      style={{background: 'white'}} 
-      containerClassName="test"
-      closeOnOuterClick={true}
-      show={this.state.show}
-      onClose={this.close.bind(this)}>
- 
-      <a style={closeStyle} onClick={this.close.bind(this)}>X</a>
-          <ModalComponent/>
- 
-      </Modal>
+        <div>
+        <Covid/>
+        <Header/>
+        <div className="w3-container bodyleft">
+          <div className="w3-bar">
+            <Option/>
+          </div>
+        <Contentbox/>
+        <div class="redtext">
+          <div class="red1">You don't neet to go far to</div>
+            <div class="red1">find what matters</div>
+          </div>
+        <ImageCard/>
+        <Celebrities/>
+        <Chefs />
+        <Partnering/>
+        <div><p id="tour">Destination for future trips</p></div>
+          <div class="w3-row">
+            <Destination/>
+          </div>
+        <Footerbox/>
       </div>
+
+
+     </div>
+ 
     )
   }
 }

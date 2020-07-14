@@ -1,19 +1,12 @@
 .bodyleft{
     margin: 0px 30px;
 }
-#hero{
+.line3 #hero{
     font-weight: bold;
     font-size: 30px;
 }
-#hero1{
+.line3 #hero1{
     margin-top: 50px;
     font-size: 20px;
 }
-.involved{
-    padding: 10px 20px;
-    background-color: white;
-    border: 3px solid rgb(102, 96, 96);
-    outline: none;
-    border-radius: 10px;
 
-}

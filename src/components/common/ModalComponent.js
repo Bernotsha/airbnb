@@ -1,9 +1,32 @@
 import React from 'react'
+import Modal, {closeStyle} from 'simple-react-modal'
 import appleicon from '../assets/appleicon.png'
 import facebookicon from '../assets/facebookicon.png'
 import googleicon from '../assets/googleicon.jpg'
-function ModalComponent(){
+class ModalComponent extends React.Component{
+  constructor(){
+    super()
+    this.state = {}
+  }
+ 
+  show(){
+    this.setState({show: true})
+  }
+ 
+  close(){
+    this.setState({show: false})
+  }
+  render(){
     return(
+      <Modal
+      className="test-class"
+      style={{background: 'white'}} 
+      containerClassName="test"
+      closeOnOuterClick={true}
+      show={this.state.show}
+      onClose={this.close.bind(this)}>
+ 
+      <a style={closeStyle} onClick={this.close.bind(this)}>X</a>
 <div className="w3-modal-content w3-card-4 w3-animate-zoom w3-round-xlarge" style={{maxWidth:"600px"}}>
             
             <div className="w3-center"><br/>
@@ -34,6 +57,9 @@ function ModalComponent(){
             </div>
       
           </div>
+          </Modal>
+
     )
+  }
 }
 export default ModalComponent
