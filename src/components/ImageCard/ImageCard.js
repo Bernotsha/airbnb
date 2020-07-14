@@ -1,9 +1,6 @@
 import React from 'react'
 import './ImageCard.css'
 import ImageCard1 from '../common/ImageCard1'
-import bmb2 from '../assets/bmb2.png'
-import bnb3 from '../assets/bnb3.jpg'
-import bng1 from '../assets/bng1.jpeg'
 
 function ImageCard()
 {
